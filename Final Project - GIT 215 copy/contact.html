@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Alpine Escape Resort for inquiries and reservations.">
+    <title>Alpine Escape Resort | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <header class="hero">
+        <div class="content">
+            <h1>Alpine Escape</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">Accommodations</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact-container">
+            <div class="contact-left">
+                <h2>Contact Us</h2>
+                <p>
+                    Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                </p>
+                <img src="images/swiss-peak.jpg" alt="Beautiful mountain peak in the Alps">
+            </div>    
+            <div class="contact-form">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+    
+                    <fieldset>
+                        <legend>Preferred Contact Method *</legend>
+                        <div class="radio-container">
+                            <label>
+                                <input type="radio" name="contact-method" value="email" required>
+                                Email
+                            </label>
+                            <label>
+                                <input type="radio" name="contact-method" value="phone" required>
+                                Phone
+                            </label>
+                        </div>
+                    </fieldset>
+                    <label for="comments">Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>Copyright ©2023 - Alpine Escape Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
